@@ -1,0 +1,43 @@
+.main-view {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+#main {
+    background-image: url('/templates/images/valley.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.my-article{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    /* color: white; */
+}
+
+
+#problem-view{
+    /* text-align: center;
+    margin: auto;
+    /* width: 50%; */
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* color: white; */
+    height: 100vh; 
+}
+

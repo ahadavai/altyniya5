@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="templates/styles.css">
+    <link rel="stylesheet" type="text/css" href="templates/reviewstyles.css">
+    <link rel="icon" href="templates/images/envelope-solid.svg" type="image/x-icon"> <!-- // favicon --> 
+
+</head>
+<body>
+    <navbar-component></navbar-component>
+
+
+    <main>
+        <form id="contactForm" class="container">
+            <label for="name">Your Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br>
+
+            <label for="email">Your Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+
+    <footer-component></footer-component>
+    <script src="navbarLoader.js"></script>
+    <script src="footerLoader.js"></script>
+</body>
+</html>

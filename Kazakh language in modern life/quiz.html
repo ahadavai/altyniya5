@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="templates/styles.css">
+    <link rel="stylesheet" type="text/css" href="templates/quizstyles.css">
+    <link rel="icon" href="templates/images/pen-to-square-solid.svg" type="image/x-icon"> <!-- // favicon --> 
+
+</head>
+<body>
+    <navbar-component></navbar-component>
+
+    <div id="quiz-container">
+        <h1>History of Kazakhstan Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What role did the nomadic lifestyle and equestrian culture play in shaping the identity of the Kazakh people?</p>
+                <label><input type="radio" name="q1" value="a"> Minimal influence</label>
+                <label><input type="radio" name="q1" value="b"> Foundational role</label>
+                <label><input type="radio" name="q1" value="c"> Secondary role</label>
+                <label><input type="radio" name="q1" value="d"> No impact</label>
+            </div>
+
+            <div class="question">
+                <p>2. During the 19th century, what significant changes occurred in Kazakhstan due to Russian colonization?</p>
+                <label><input type="radio" name="q2" value="a"> Introduction of French culture</label>
+                <label><input type="radio" name="q2" value="b"> Spread of the Spanish language</label>
+                <label><input type="radio" name="q2" value="c"> Development of Russian Orthodox Christianity</label>
+                <label><input type="radio" name="q2" value="d"> Adoption of Chinese customs</label>
+            </div>
+
+            <div class="question">
+                <p>3. In which year did Kazakhstan declare independence from the Soviet Union, marking a pivotal moment in its history?</p>
+                <label><input type="radio" name="q3" value="a"> 1985</label>
+                <label><input type="radio" name="q3" value="b"> 1991</label>
+                <label><input type="radio" name="q3" value="c"> 2000</label>
+                <label><input type="radio" name="q3" value="d"> 2010</label>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Answers</button>
+        </form>
+
+        <div id="results-container"></div>
+    </div>
+    <br>
+    <br>
+    <br><br>
+    <br>
+
+    <script src="quiz.js"></script>
+
+    <footer-component></footer-component>
+
+    <script src="navbarLoader.js"> </script>
+    <script src="footerLoader.js"></script>
+    <footer-component></footer-component>
+</body>
+</html>
